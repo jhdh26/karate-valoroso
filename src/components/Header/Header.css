@@ -1,0 +1,52 @@
+@import url('https://fonts.cdnfonts.com/css/oswald-4');
+
+.main-header {
+    position: relative;
+    overflow: hidden; 
+    background-color: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5); 
+}
+
+.main-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(8px); 
+    -webkit-backdrop-filter: blur(8px); 
+    z-index: -1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    width: auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header > img {
+    width: 12vw;
+    height: 12vh;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+
+.header-buttons > h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+.header-buttons > button {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
