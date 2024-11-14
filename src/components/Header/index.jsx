@@ -12,7 +12,7 @@ export const Header = () => {
                     <h1 style={{ fontSize: '20px', cursor: 'pointer' }}>Aprendizados</h1>
                     <h1 style={{ fontSize: '20px', cursor: 'pointer' }}>Planos</h1>
                     <button
-                        style={{ width: '10vw', height: '5vh', fontSize: '16px', textTransform: 'uppercase', borderRadius: '8px', border: '1px solid rgb(128, 0 , 0)', backgroundColor: 'red', cursor: 'pointer' }}>
+                        style={{ width: '10vw', height: '5vh', fontSize: '16px', textTransform: 'uppercase', borderRadius: '8px', border: '1px solid rgb(128, 0 , 0)', backgroundColor: '#EF5D60', cursor: 'pointer' }}>
                         Quero Evoluir
                     </button>
                 </div>

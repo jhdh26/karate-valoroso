@@ -13,7 +13,7 @@
 
 /*TOP PAGE*/
 
-.top-page{
+.top-page {
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -21,7 +21,7 @@
     height: 100vh;
 }
 
-.top-page::before{
+.top-page::before {
     content: '';
     background-image: url('./assets/bela-paisagem-de-arte-japonesa-com-arvores-sacura-em-flor-e-ia-gerada-por-fuji_536572-1042.avif');
     position: fixed;
@@ -35,11 +35,11 @@
     background-position: center;
 }
 
-.first-card{
+.first-card {
     display: flex;
 }
 
-.left-first-card{
+.left-first-card {
     flex: 1;
     width: 80vw;
     height: 70vh;
@@ -47,7 +47,7 @@
     justify-content: right;
 }
 
-.left-card{
+.left-card {
     background-color: rgba(29, 30, 34, 0.7);
     width: 30vw;
     height: 70vh;
@@ -59,7 +59,7 @@
     flex-direction: column;
 }
 
-.right-first-card{
+.right-first-card {
     flex: 1;
     width: 80vw;
     height: 70vh;
@@ -69,7 +69,7 @@
 
 /* SECOND CONTAINER */
 
-.second-container{
+.second-container {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     background-color: #1D1E22;
@@ -83,7 +83,7 @@
     align-items: center;
 }
 
-.card-second-container{
+.card-second-container {
     background-color: rgba(85, 85, 85, 0.7);
     width: 80vw;
     height: 50vh;
@@ -98,7 +98,7 @@
 
 /* THIRDY CONTAINER */
 
-.thirdy-container{
+.thirdy-container {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     background-color: #32343a;
@@ -110,4 +110,71 @@
     flex-direction: column;
     gap: 50px;
     align-items: center;
+}
+
+.thirdy-container-cards {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    max-width: 1200px;
+}
+
+.thirdy-container>button {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+/* QUARTER CONTAINER */
+
+.quarter-container {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    background-color: #1D1E22;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.quarter-container-cards {
+    display: flex;
+    width: auto;
+    height: auto;
+    padding-top: 50px;
+}
+
+.left-quarter-container {
+    flex: 1;
+}
+
+.right-quarter-container {
+    flex: 1;
+    display: flex;
+    width: 50vw;
+    height: 40vh;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+    background-color: #32343a;
+    border-radius: 40px;
+}
+
+/* FIFTH CONTAINER*/
+
+.fifth-container{
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        background-color: #32343a;
+        width: 100vw;
+        height: 100vh;
+        padding-top: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 }
